@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Olimpiade</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  
+  .affix + .container-fluid {
+      position: relative;
+      padding-top: 70px;
+  }
+
+  footer {
+      margin-top: 27px;
+      background-color:black;
+      color: white;
+      padding: 15px;
+    }
+
+body {
+	background: #eee !important;	
+}
+
+.wrapper {	
+	margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+	.form-control {
+	  position: relative;
+	  font-size: 16px;
+	  height: auto;
+	  padding: 10px;
+    }
+
+  </style>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="110">
+        
+        <div class="container-fluid">
+             <div class="navbar-header">
+                <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#menu-list'>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+                </button>
+
+             <!--<a href="#" class='navbar-brand'>Olimpiade Kimia Online</a>-->
+             </div>
+         </div>
+
+         <div class="collapse navbar-collapse" id="menu-list">
+            <ul class='nav navbar-nav navbar-right'>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Registrasi.html">Regstrasi</a></li>
+            </ul>
+         </div>
+        </nav>
+
+<div class="container">
+    <div class="row">
+                <div class="col-sm-3">
+                    <div class="list-group" id="sidebar" role="navigation">
+                        <a  href="?mid=1"  class="list-group-item  active ">Halaman Utama</a>
+	                    <a  href="?mid=13"  class="list-group-item ">Informasi Umum</a>
+	                    <a  href="?mid=14"  class="list-group-item ">Daftar PTN</a>
+	                    <a  href="?mid=28"  class="list-group-item ">Daftar PTN UK</a>
+                    </div>
+                </div>
+            </div>
+  <form class="form-horizontal" action="#">
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="email">Email:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="pwd">Re-type Password:</label>
+      <div class="col-sm-10">          
+        <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2">Provinsi:</label>
+      <div class="col-sm-10">          
+        <select class="selectpicker">
+            <option>aceh</option>
+            <option>jatim</option>
+            <option>papua</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="nm">Nama:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="nm" placeholder="Nama Lengkap" name="nm">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="place">Tempat Lahir:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="place" placeholder="Tempat Lahir" name="place">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2">Tanggal Lahir:</label>
+      <div class="col-sm-10">          
+        <select class="selectpicker">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+        </select>
+          <select class="selectpicker">
+            <option>Jan</option>
+            <option>Feb</option>
+            <option>Mar</option>
+        </select>
+        <select class="selectpicker">
+            <option>1999</option>
+            <option>2001</option>
+            <option>3001</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="addr">Alamat:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="addr" placeholder="Alamat Lengkap" name="addr">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2" for="phone">Nomor Telepon:</label>
+      <div class="col-sm-10">          
+        <input type="text" class="form-control" id="phone" placeholder="Nomor Telepon" name="phone">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label class="control-label col-sm-2">Jenis Kelamin:</label>
+      <div class="col-sm-10">          
+        <select class="selectpicker">
+            <option>1Laki</option>
+            <option>cewek</option>
+            <option>mimi peri</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+          <button type="button" class="btn btn-default">Choose File</button>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <div class="form-group">        
+      <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-default">Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
+  
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+    <!--<footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>-->
+
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Olimpiade</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  
+  .affix + .container-fluid {
+      position: relative;
+      padding-top: 70px;
+  }
+
+  footer {
+      background-color:black;
+      color: white;
+      padding: 15px;
+    }
+
+    </style>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="110">
+        
+        <div class="container-fluid">
+             <div class="navbar-header">
+                <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#menu-list'>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+                </button>
+
+             <!--<a href="#" class='navbar-brand'>Olimpiade Kimia Online</a>-->
+             </div>
+         </div>
+
+         <div class="collapse navbar-collapse" id="menu-list">
+            <ul class='nav navbar-nav'>
+                <li class="active"><a href="halamanAwal.html">Peraturan</a></li>
+            </ul>
+         </div>
+        </nav>
+
+    <div class="container-fluid" style="height:1000px">
+        <div class="container">
+            <div class="row">
+                <div class="jumbotron">
+                     <h2>Tata Tertib Olimpiade</h2>
+                         <h3>Babak Penyisihan</h3> 
+                         <p>1. Setiap Peserta mengerjakan 40 butir soal 
+                             pilihan ganda dan 5 butir soal uraian dalam waktu 120 menit;</p>
+                        <p>2. Peserta wajib membawa perlengkapan alat tulis dan dilarang saling meminjam satu sama lain;</p>
+                        <p>3. Peserta tidak diperkenankan menyontek dan/atau memberi contekan.</p>
+                        <p>4. Peserta tidak diperkenankan menggunakan tabel matematika, kalkulator, atau alat bantu hitung lainnya;</p>
+                        <p>5. Peserta menerima satu set soal, lembar jawaban, dan kertas buram</p>
+                        <p>6. Peserta diperbolehkan untuk mencoret-coret lembar soal;</p>
+                        <p>7. Untuk soal pilihan ganda, jawaban yang benar akan diberi poin +4 sedangkan jawaban yang salah akan diberi poin -1.  
+                        Dan jika tidak ada jawaban diberi poin 0;</p>
+                        <p>8. Untuk soal uraian rentang nilai yang akan diberikan adalah 0-20</p>
+                        <p>9. Peserta yang sudah selesai sebelum waktunya dilarang meninggalkan ruangan.</p>
+                        <p>10. Apabila terdapat dua atau lebih peserta yang memiliki nilai yang sama pada batas 5 nilai tertinggi, 
+                        maka semua peserta yang bernilai sama tersebut masuk ke babak semifinal.</p>
+                        <a href="Soal.html" class="btn btn-primary">Lanjut</a>  
+                </div>
+            </div>
+        </div> 
+          
+    </div>
+       
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+
+</html>

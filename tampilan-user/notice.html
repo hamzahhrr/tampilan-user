@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Olimpiade</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  
+  .affix + .container-fluid {
+      position: relative;
+      padding-top: 70px;
+  }
+
+  footer {
+      background-color:black;
+      color: white;
+      padding: 15px;
+    }
+
+    .btn{
+        margin-top: 20px;
+        margin-left: 15px;
+        margin-right: 90px;
+    }
+
+    .jumbotron{
+        height: 500px;
+    }
+    </style>
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top" >
+        
+        <div class="container-fluid">
+             <div class="navbar-header">
+                <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='#menu-list'>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+            <span class='icon-bar'></span>
+                </button>
+
+             <!--<a href="#" class='navbar-brand'>Olimpiade Kimia Online</a>-->
+             </div>
+         </div>
+
+         <div class="collapse navbar-collapse" id="menu-list">
+            <ul class='nav navbar-nav'>
+                <li class="active"><a href="soal.html">Peraturan</a></li>
+                <li><a href="soal.html">Soal</a></li>
+            </ul>
+         </div>
+        </nav>
+
+    <div class="container-fluid" style="height:600px">
+        <div class="container">
+           <div class="jumbotron" position="center" style="height:600px">
+               <p class="text-center">    
+               <h2>Test Selesai
+               Silahkan tunggu Pengumuman pada tanggal dd-mm-yyyy</h2>
+               </p>
+           </div>
+        </div>   
+    </div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+
+</html>
